@@ -4,6 +4,6 @@ module test (
   output ccc
 );
 
-assign ccc = aaa & bbb;
+assign ccc = aaa | bbb;
 
 endmodule
